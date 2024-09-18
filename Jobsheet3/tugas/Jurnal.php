@@ -28,4 +28,7 @@ class jurnalMahasiswa extends Jurnal {
 }
 
 $dsn = new jurnalDosen();
+$mhs = new jurnalMahasiswa();
 echo $dsn->kelolaJurnal("Matematika Diskrit");
+echo "<br>";
+echo $mhs->kelolaJurnal("Digitalisasi Persuratan Mahasiswa");
