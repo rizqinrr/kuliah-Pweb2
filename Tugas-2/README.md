@@ -26,12 +26,12 @@ Tugas-2
   -  Halaman ini langsung mengarah ke file index.php yang terdapat pada folder views;
 
 
-🔗[**database/**](./database/README.php)
+🔗[**database/**](./database/README.md)
   - **Database.php**: Mengelola koneksi ke database.
   - **Laporan_kerja_lembur.php**: Mengelola data laporan kerja lembur.
   - **Penggantian_pengawas_ujian.php**: Mengelola data penggantian pengawas.
 
-🔗[**views/**](./views/)
+🔗[**views/**](./views/README.md)
   - **index.php**: Halaman utama yang menggabungkan berbagai elemen seperti header, footer, dan tabel.
   - **footer.php**: File template untuk bagian footer halaman.
   - **header.php**: File template untuk bagian header halaman, dan menampilkan data dari file table-laporan.php , table-penggantian.php, dan dataspeisifik.
