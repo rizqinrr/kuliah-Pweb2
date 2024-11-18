@@ -17,8 +17,8 @@
     </div>
   </nav>
   <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><?php include('home.php');  ?></div>
-    <div class="tab-pane fade" id="nav-penggantian" role="tabpanel" aria-labelledby="nav-penggantian-tab" tabindex="0"><?php include('table-penggantian.php');  ?></div>
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0"><?php include('home.php'); ?></div>
+    <div class="tab-pane fade" id="nav-penggantian" role="tabpanel" aria-labelledby="nav-penggantian-tab" tabindex="0"><?php include('table-penggantian.php'); ?></div>
     <div class="tab-pane fade" id="nav-laporan" role="tabpanel" aria-labelledby="nav-laporan-tab" tabindex="0"><?php include('table-laporan.php'); ?></div>
     <div class="tab-pane fade" id="nav-spesifik" role="tabpanel" aria-labelledby="nav-spesifik-tab" tabindex="0"> <?php include('dataspesifik.php');  ?></div>
   </div>

@@ -14,7 +14,6 @@ class Database { // pembuatan class Database untuk melakukan koneksi
     // inisialisasi koneksi
     $this->conn = mysqli_connect($this->db_host, $this->db_user, $this->db_pass, $this->db_name);
     if(!$this->conn) { // untuk menampilkan pesan jika konesi tidak tejadi
-      
       echo "Gagal terhubung";
     }
   }
